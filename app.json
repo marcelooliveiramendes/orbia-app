@@ -20,6 +20,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "scheme": "orbia",
+    "plugins": [
+      ["expo-router", { "root": "./src/app" }],
+      "expo-font",
+      "expo-status-bar"
+    ],
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
